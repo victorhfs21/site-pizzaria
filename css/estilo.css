@@ -1,0 +1,212 @@
+body{
+    background: url(../Imagens/fundo.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.cabecalho{
+    margin: 0 135px;
+    height: 10%;
+    background: #b22d00;
+    display: flex;
+}
+
+.logo{
+    margin: 0 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.numero{
+    margin: 0;
+    width: 200%;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.numero p{
+    font-family: sans-serif;
+    float: right;
+    width: 27%;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.paginas{
+    background: #d9a300;
+    list-style-type: none;
+    margin: 0 135px;
+    padding: 10px;
+    height: 4%;
+}
+
+.paginas li{
+    font-family: sans-serif;
+    display: inline;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.paginas a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin: 0 135px;
+    padding: 30px 30px 0 30px;
+    background: white;
+    height: 690px;
+}
+
+.container hr{
+    height: 1px;
+    background: black;
+}
+
+.titulo{
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.imagens figure{
+    margin: 0;
+}
+
+.imagens figcaption{
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.coluna-direita{
+    width: 50%;
+    margin: 0;
+}
+
+.coluna-direita h2{
+    width: 100%;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.cardapio{
+    height: 100%;
+}
+
+.cardapio ul{
+    column-count: 3;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.cardapio li{
+    list-style-type: none;
+    padding: 2px;
+}
+
+.coluna-esquerda{
+    width: 50%;
+}
+
+.historia{
+    margin: 0 30px 0 60px;
+    padding: 0;
+}
+
+.coluna-esquerda h2{
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.historia p{
+    height: 150px;
+    margin-right: 11px;
+    text-align: left;
+}
+
+.imagem-esquerda{
+    float: left;
+    margin-right: 15px;
+}
+
+.imagens-galeria figure{
+    margin: 0 6px 6px 0;
+    display: inline-block;
+}
+
+.imagens-galeria img{
+    border: 1px solid;
+    width: 120px;
+}
+
+.coluna-direita h3{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.coluna-direita p{
+    margin-top: 0;
+}
+
+.coluna-direita label{
+    font-family: sans-serif;
+}
+
+.formulario{
+    width: 300px;
+    margin: 8px 0;
+}
+
+.botao{
+    width: 80px;
+    height: 25px;
+    background: rgb(112, 109, 109);
+    color: white;
+}
+
+.esquerdo-contato{
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.formulario-imagem{
+    width: 100%;
+    height: 200px;
+}
+
+.coluna-esquerda h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.coluna-esquerda p{
+    margin-top: 0;
+}
+
+.rodape{
+    color: white;
+    background: rgb(48, 47, 47);
+    padding:  14px 30px;
+    margin: 0 135px;
+}
+
+.clear{
+    clear: both;
+}

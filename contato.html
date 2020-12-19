@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Super Pizza</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="logo">
+            <img src="Imagens/logotipo.png">
+        </nav>
+        <nav class="numero">
+            <p>
+                Disk Entregas: (19) 1234-5678
+            </p>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <ul class="paginas">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <main class="container">
+        <h1 class="titulo">Entre em contato</h1>
+        <hr>
+
+        <div class="conteudo">
+            <section class="coluna-direita">
+                <h3>Envie uma mensagem</h3>
+                <p>
+                    Utilize o formulário de contato para enviar sua mensagem:
+                </p>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" class="formulario" name="nome"></input>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" class="formulario" name="email"></input>
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" rows="5" cols="70"></textarea>
+                    <br>
+                    <button type="submit" class="botao">Enviar</button>
+                </form>
+            </section>
+
+            <section class="coluna-esquerda">
+                <div class="esquerdo-contato">
+                    <p>
+                        <iframe src="http://dimadrepizzaria.com.br/" class="formulario-imagem"></iframe>
+                    </p>
+                    <h3>Endereço</h3>
+                    <p>
+                        Rua Teste, 123, Bairro
+                        <br>
+                        Sede, Americana - SP
+                    </p>
+                    <h3>Email</h3>
+                    <p>
+                        contato@superpizza.com.br
+                    </p>
+                    <h3>Telefone</h3>
+                    <p>
+                        (19) 1234-5678
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">
+        Aula do SENAC. Declaração de direitos autorais.
+    </footer>
+</body>
+
+</html>
